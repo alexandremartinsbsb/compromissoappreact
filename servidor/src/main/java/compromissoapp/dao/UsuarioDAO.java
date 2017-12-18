@@ -6,14 +6,14 @@ import compromissoapp.modelo.Usuario;
 
 public interface UsuarioDAO {
 
-    Usuario getUsuario(String pk);
+	Usuario getUsuario(String pk);
 
-    List<Usuario> getUsuarios();
+	List<Usuario> getUsuarios();
 
-    Usuario salvar(Usuario usuario);
+	Usuario salvar(Usuario usuario);
 
-    Usuario atualizar(String pk, Usuario usuario);
+	Usuario atualizar(String pk, Usuario usuario);
 
-    void excluir(String pk);
+	void excluir(String pk);
 
 }

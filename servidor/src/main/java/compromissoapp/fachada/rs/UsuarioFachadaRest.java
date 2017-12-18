@@ -28,10 +28,7 @@ public class UsuarioFachadaRest {
 
 	@GET
 	public List<Usuario> getUsuarios() {
-	    
-	    this.usuarioServico.excluir("-KzuhIOs-A08TrF4iwwM");
-	    
-		return null;
+		return this.usuarioServico.getUsuarios();
 	}
 
 	@GET
